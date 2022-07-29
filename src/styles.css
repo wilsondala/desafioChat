@@ -1,0 +1,295 @@
+/* Você pode adicionar estilos globais a este arquivo, e também importar outros arquivos de estilo */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    padding: 0px;
+    margin-left: 0%;
+    background-color: whitesmoke;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+ 
+}
+/**/
+
+/*menu horizontal*/
+.container a:hover {
+    background: none;
+    border-radius: 2%;
+    display: block;
+    text-align: center;
+    paint-order: normal;
+    transition: all 0.5s ease;
+    
+}
+/*barra de pesquisa*/
+#divBusca{
+    background-color:#832a2a;
+    border:solid 1px;
+    align-items: center;
+    display: inline-flex;
+    border: 2px solid black;
+
+  }
+
+ 
+  #txtBusca{
+    background: #b5b5b5;
+    font-style:italic;
+    font-size:18px;
+    height: 40%;
+  
+  }
+
+/*icon cancealr minimizar e ampliliar*/
+#cancelar {
+    display: inline;
+    float: right;
+    align-items: center;
+    text-indent: 5em;
+    position: fixed;
+     
+}
+
+
+/*barra lateral cinza*/
+.menu {
+    position: relative;
+    padding-right: 3%;
+   
+}
+
+
+
+p {
+    text-align: center;
+    margin: 2px;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    transition: all 0.5s ease;
+    
+}
+
+.menu a:hover{
+    background-color: rgb(90, 202, 105);
+    
+}
+
+#navlist {
+    background-color: #d8e0e7;
+    position: absolute;
+    width: 99%;
+    
+}
+
+  
+  .container {
+    width: 100%;
+    background-color: #2f597e;
+    height: 26px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(88, 88, 160);
+    position: fixed;
+      
+  }
+  
+  /*menu horizontal*/
+  .container a:hover {
+    background: transparent;
+    border-radius: 10%;
+    display: block;
+    text-align: center;
+    paint-order: normal;
+    transition: all 0.5s ease;
+    
+  }
+  /*barra de pesquisa*/
+  #divBusca{
+    background-color:#b5b5b5;
+    border:solid 5px;
+    align-items: center;
+    display: inline-flex;
+    border: 2px solid black;
+    text-indent: 90%;
+  
+  }
+  
+  
+  #txtBusca{
+    font-size:12px;
+    border:none;
+    height:3%;
+    width: 300px
+  }
+  /*seta de voltar e avançar*/
+  header{
+    display: inline;
+    float: left;
+    
+  }
+  /*icon cancealr minimizar e ampliliar*/
+  #cancelar {
+    display: inline;
+    float: right;
+    align-items: center;
+    text-indent: 5em;
+    position: fixed;
+     
+  }
+  
+  
+  /*foto do perfil*/
+  section {
+    display: inline-flex;
+    line-height: 10px;
+    text-indent: 5em;
+  
+    
+  }
+  
+   section img {
+    border-radius: 35%;
+    height: 21px;
+  }
+  
+  div a img {
+    width: 22px;
+    align-items: center;
+    display: inline;
+    
+    
+  }
+  
+  .menu {
+    background-color: #b5b5b5;
+    margin: 44%;
+    margin-left: 0%;
+    height: 100%;
+    margin-right: 50px;
+    margin-top: 70px;
+    position: fixed;
+   
+  }
+  
+  p {
+    text-align: center;
+    margin: 2px;
+  }
+  
+  img{
+    float: none;
+    width: 35px;
+    
+  }
+  .menu a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    transition: all 0.5s ease;
+    
+  }
+  
+  .menu a:hover{
+    background-color: rgb(66, 14, 11);
+    
+  }
+  
+  #navlist {
+    background-color: #d8e0e7;
+    position: absolute;
+    
+  }
+
+/*icon ajuda*/
+  .ajuda img p{
+   padding-top: 60%;
+   
+  }
+  
+  /*altura da minha caixa de mensagem*/
+  #area{
+
+    left: 15%;
+    width: 359px;
+    padding: 400px;
+    position: relative;
+    padding-left: 0ch;
+    padding: auto;
+   
+   
+  }
+  
+  /*caixa de mensagem digite uma nova mensagem largura da caixa de mensagem*/
+  textarea {
+    color: #141014;
+    width: 800px;
+    font-style: italic;
+    font-size: 15px;
+    padding: 30px;
+    border-width: 0ch;
+    margin: 0px;
+    overflow: hidden;
+    height: 6em;
+    resize: vertical;
+    resize: none;
+   
+   
+  }
+  
+  /* largura da borda barra azul botão escrever mensagem*/
+  form {
+    display: block;
+    width: 860px;
+    background: #2f597e;
+    position: relative;
+    padding-left: 0ch;  
+  
+   
+  
+  }
+  
+  
+  /*main icon area enviar*/
+  main {
+    position: fixed; 
+    margin-right: 10%;
+    text-indent: 0%;
+   
+  }
+  
+  /*botão de enviar */
+  #enviar{
+    display: inline;
+    float: right;
+    text-indent: 89ch;
+  }
+
+  
+  @media only screen and (min-width: 900px) and (max-width: 1366px) {
+     body footer form  main{
+        width: 110%;
+        position: fixed;
+       
+      }
+    
+  }  
+
+  @media only screen and (max-width: 900px) {
+    section img {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    textarea footer{
+      align-items: center;
+    }
+  }
